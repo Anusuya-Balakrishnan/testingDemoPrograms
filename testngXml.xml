@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name='my Suite'>
+<test name='my test 1'>
+<groups>
+<run>
+<exclude name="group1"/>
+</run>
+</groups>
+<parameter name="number1" value="231"/>
+<parameter name="number2" value="465"/>
+<classes>
+<class name="testngExamplePrograms.Example"/>
+<class name="testngExamplePrograms.Example2" />
+</classes>
+</test>
+</suite>
